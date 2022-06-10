@@ -1,0 +1,140 @@
+*{
+    a{
+        color: #545454;
+    }
+    h2{
+        color: #545454;
+    }
+    box-sizing: border-box;
+}
+header{
+    .contact{
+        background-color: #545454;     
+    .container{        
+        height: 40px;
+        color: #fff;
+        .row{
+            .social-icons{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                height: 40px;
+                a{
+                    color: rgb(215, 214, 214);
+                    margin: 0 8px;
+                }
+            }
+            .email{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                height: 40px;
+                i{
+                    margin: 0 6px;
+                    color: #E96B56;
+                }
+            }
+            .number{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                height: 40px;
+                i{
+                    margin: 0 6px;
+                    color: #E96B56;
+                }
+            }
+        }
+    }
+   }
+   nav{
+       .container{
+           .row{
+               .nav-links{
+                   ul{
+                       display: flex;
+                       justify-content: end;
+                       li{
+                           list-style-type: none;
+                           margin: 0 10px;
+                           a{
+                               text-decoration: none;
+                               color: #545454;
+                               &:hover{
+                                   color: #E96B56;
+                               }
+                           }
+                       }
+                   }
+
+               }
+           }
+       }
+       .services{
+           background-color: #F7F7F7;
+           .row{
+               padding: 12px 0;
+           }
+       }
+   }
+}
+main{
+   #services{
+    .cards{
+        .container{
+            .row{
+                .card{
+                    width: 31%;
+                    margin: 15px;
+                    text-align: center;
+                    height: 300px;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover{
+                        background-color: #E96B56;
+                        color: #fff;
+                    }
+                    
+                    .icons{
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        i{
+                            background-color: #E96B56;
+                            height: 60px;
+                            width: 60px;
+                            border-radius: 5px;
+                            text-align: center;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            box-shadow: -6px -5px 1px 1px #fbe2dd;
+                            color: #fff;
+                            font-size: 25px;
+                           
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+   }
+   #skills{
+       .container{
+           .about{
+               .row{
+                   .img{
+                       width: 50%;
+                       img{
+                           width: 100%;
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+#footer-top{
+    background-color: #404040;
+}
