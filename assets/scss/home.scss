@@ -78,6 +78,53 @@ header {
   }
 }
 main {
+  #featured {
+    .container {
+      .row {
+        .card {
+          width: 30%;
+          margin: 20px;
+          border-radius: 10px;
+          padding: 25px;
+          box-shadow: 0 0 10px 0 #a5a0a0;
+          i {
+            font-size: 40px;
+            color: #e96b56;
+            margin-top: 10px;
+          }
+          h5 {
+            color: #545454;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+  #about {
+    .container {
+      .row {
+        .image {
+          img {
+            width: 100%;
+          }
+        }
+        .about {
+          ul {
+            li {
+              list-style-type: none;
+              margin-bottom: 10px;
+              i {
+                color: #e96b56;
+                margin-right: 8px;
+                font-weight: lighter;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   #services {
     .cards {
       .container {
@@ -117,48 +164,14 @@ main {
       }
     }
   }
-  #skills {
+  #clients {
     .container {
-      .about {
-        .row {
-          .img {
-            width: 50%;
+      .row {
+        .owl-carousel {
+          margin-top: 30px;
+          .item {
             img {
-              width: 100%;
-            }
-          }
-          .skill {
-            .html {
-              border: 1px solid red;
-              height: 8px;
-              width: 100%;
-              background-color: #e96b56;
-              border-radius: 20px;
-              border: none;
-            }
-            .css {
-              border: 1px solid red;
-              height: 8px;
-              width: 90%;
-              background-color: #e96b56;
-              border-radius: 20px;
-              border: none;
-            }
-            .js {
-              border: 1px solid red;
-              height: 8px;
-              width: 75%;
-              background-color: #e96b56;
-              border-radius: 20px;
-              border: none;
-            }
-            .ps {
-              border: 1px solid red;
-              height: 8px;
-              width: 55%;
-              background-color: #e96b56;
-              border-radius: 20px;
-              border: none;
+              width: 100px;
             }
           }
         }
@@ -240,8 +253,8 @@ main {
             width: 36px;
             height: 36px;
             transition: 0.3s;
-            &:hover{
-                background: #e96b56;
+            &:hover {
+              background: #e96b56;
             }
           }
         }
@@ -249,19 +262,14 @@ main {
     }
   }
 }
-#end{
-    background-color: #404040;
-    text-align: center;
-    padding: 30px 0;
-    p{
-        color: #fff;
-    }
-    span{
-        color: #fff;
-    }
-}
-@media only screen and (max-width: 720px){
-  .nav-links{
-    display: none;
+#end {
+  background-color: #404040;
+  text-align: center;
+  padding: 30px 0;
+  p {
+    color: #fff;
+  }
+  span {
+    color: #fff;
   }
 }

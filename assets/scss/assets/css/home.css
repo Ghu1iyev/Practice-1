@@ -105,6 +105,42 @@ header nav .services .row {
   padding: 12px 0;
 }
 
+main #featured .container .row .card {
+  width: 30%;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 10px 0 #a5a0a0;
+          box-shadow: 0 0 10px 0 #a5a0a0;
+}
+
+main #featured .container .row .card i {
+  font-size: 40px;
+  color: #e96b56;
+  margin-top: 10px;
+}
+
+main #featured .container .row .card h5 {
+  color: #545454;
+  margin: 10px 0;
+}
+
+main #about .container .row .image img {
+  width: 100%;
+}
+
+main #about .container .row .about ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+main #about .container .row .about ul li i {
+  color: #e96b56;
+  margin-right: 8px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
 main #services .cards .container .row .card {
   width: 31%;
   margin: 15px;
@@ -154,48 +190,12 @@ main #services .cards .container .row .card .icons i {
   font-size: 25px;
 }
 
-main #skills .container .about .row .img {
-  width: 50%;
+main #clients .container .row .owl-carousel {
+  margin-top: 30px;
 }
 
-main #skills .container .about .row .img img {
-  width: 100%;
-}
-
-main #skills .container .about .row .skill .html {
-  border: 1px solid red;
-  height: 8px;
-  width: 100%;
-  background-color: #e96b56;
-  border-radius: 20px;
-  border: none;
-}
-
-main #skills .container .about .row .skill .css {
-  border: 1px solid red;
-  height: 8px;
-  width: 90%;
-  background-color: #e96b56;
-  border-radius: 20px;
-  border: none;
-}
-
-main #skills .container .about .row .skill .js {
-  border: 1px solid red;
-  height: 8px;
-  width: 75%;
-  background-color: #e96b56;
-  border-radius: 20px;
-  border: none;
-}
-
-main #skills .container .about .row .skill .ps {
-  border: 1px solid red;
-  height: 8px;
-  width: 55%;
-  background-color: #e96b56;
-  border-radius: 20px;
-  border: none;
+main #clients .container .row .owl-carousel .item img {
+  width: 100px;
 }
 
 #footer-top {
@@ -297,4 +297,4 @@ main #skills .container .about .row .skill .ps {
 #end span {
   color: #fff;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=home.css.map */
