@@ -1,0 +1,54 @@
+﻿@model Setting;    
+<header>
+      <div class="contact">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="email col-lg-2">
+              <i class="fa-solid fa-envelope"></i>
+              <span>@Model.Email</span>
+            </div>
+            <div class="number col-lg-2">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <span>+@Model.Number</span>
+            </div>
+            <div class="social-icons col-lg-8">
+              @foreach (HeaderSocialMedia icon in Model.HeaderSocialMedias)
+             {
+                 <a href=""><i class="@Model.HeaderSocialMedias"></i></a>
+             }
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container mt-3">
+          <div class="row">
+            <div class="logo col-lg-2">
+              <h2 style="color: #545454">ETERNA</h2>
+            </div>
+            <div class="nav-links col-lg-10">
+              <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Pircing</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Drop Down</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="services">
+          <div class="container">
+            <div class="row">
+              <span>Home / Services</span>
+              <h2>Services</h2>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>

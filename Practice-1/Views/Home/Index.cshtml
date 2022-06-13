@@ -1,0 +1,76 @@
+﻿@using Practice_1.Models
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <main>
+      <section id="services">
+          <div class="cards mt-4">
+              <div class="container">
+                  <div class="row">
+                     @foreach (Card card in Model)
+                    {
+                         <div class="card col-lg-4 d-flex align-items-stretch">
+                          <div class="icons">
+                              <i class="fa-solid @card.Icon"></i>
+                          </div>
+                          <div class="title">
+                              <h2>@card.Title</h2>
+                          </div>
+                          <div class="description">
+                              <p>@card.Description</p>
+                          </div>
+                      </div>
+                     
+                    }
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section id="skills">
+          <div class="container">
+              <div class="row">
+                <div class="title text-center">
+                    <h2>Our Skills</h2>
+                </div>
+                <div class="description text-center">
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+               
+              </div>
+            <div class="about mt-3">
+                <div class="row">               
+                    <div class="img col-lg-6">
+                        <img src="~/assets/img/skills-img.jpg" alt="">
+                    </div>
+                    <div class="skill col-lg-6">
+                        <div class="title">
+                            <h2>
+                                Voluptatem dignissimos provident quasi corporis voluptates</h2>
+                        </div>
+                        <div class="desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt direna past reda</p>
+                        </div>
+                        <span>HTML</span>
+                        <span style="position:absolute; right: 115px;">100%</span>
+                        <div class="html mb-4">
+                        </div>
+                        <span>CSS</span>
+                        <span style="position:absolute; right: 175px;">90%</span>
+                        <div class="css mb-4">
+                        </div>
+                        <span>JAVASCRIPT</span>
+                        <span style="position:absolute; right: 270px;">75%</span>
+                        <div class="js mb-4"></div>
+                        <span>PHOTOSHOP</span>
+                        <span style="position:absolute; right: 400px;">55%</span>
+                        <div class="ps mb-4"></div>
+                    </div>
+                
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+
